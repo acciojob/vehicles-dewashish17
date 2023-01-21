@@ -21,6 +21,68 @@ public class Car extends Vehicle {
         this.currentGear=1;
     }
 
+    //getter and setter for wheel
+    public int getWheels() {
+        return this.wheels;
+    }
+ 
+    public void setWheels(int wheels) {
+        this.wheels = wheels;
+    }
+
+    // getter ans setter for doors
+    public int getDoors() {
+        return this.doors;
+    }
+ 
+    public void setDoors(int doors) {
+        this.doors = doors;
+    }
+
+    // getter and setter for gears
+    public int getGears() {
+        return this.gears;
+    }
+ 
+    public void setGears(int gears) {
+        this.gears = gears;
+    }
+
+    // getter and setter for isManual
+    public boolean isManual() {
+        return this.isManual;
+    }
+ 
+    public void setManual(boolean manual) {
+        this.isManual = manual;
+    }
+
+    // getter and setter for type
+    public String getType() {
+        return this.type;
+    }
+ 
+    public void setType(String type) {
+        this.type = type;
+    }
+
+    //getter and setter for seats
+    public int getSeats() {
+        return this.seats;
+    }
+ 
+    public void setSeats(int seats) {
+        this.seats = seats;
+    }
+
+    //getter and setter for currentgear
+    public int getCurrentGear() {
+        return this.currentGear;
+    }
+    public void setCurrentGear(int currentGear) {
+        this.currentGear = currentGear;
+    }
+
     public void changeGear(int newGear){
         this.currentGear=newGear;
         System.out.println("changeGear method called - The gear is changed to: " + currentGear);
